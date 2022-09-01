@@ -1,0 +1,7 @@
+import turtle 
+turtle.bgcolor("black")
+turtle.color("white")
+turtle.pensize(10)
+for angle in range(0,360,30):
+    turtle.seth(angle)
+    turtle.circle(80)
